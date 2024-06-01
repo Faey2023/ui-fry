@@ -137,11 +137,9 @@ const Pricing = () => {
                   d="M4.5 12.75l6 6 9-13.5"
                 />
               </svg>
-
               <span className="text-gray-700"> Community access </span>
             </li>
           </ul>
-
           <button className="mt-8 block rounded-full border border-[#FF5555] bg-[#FF5555] px-12 py-3 text-center text-sm font-medium text-white hover:bg-black hover:ring-1 hover:ring-black focus:outline-none focus:ring ">
             Get Started
           </button>

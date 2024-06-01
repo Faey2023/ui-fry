@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./Shared/Navbar/NavBar";
+import Footer from "./Shared/Footer/Footer";
 
 const clash = localFont({
   src: [
@@ -53,6 +54,7 @@ export default function RootLayout({
         <div className="px-10 font-clash">
           <NavBar />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
