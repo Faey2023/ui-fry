@@ -1,6 +1,7 @@
 import Advantages from "@/Components/Home/Advantage/Advantages";
 import Banner from "@/Components/Home/Banner/Banner";
 import Features from "@/Components/Home/Features/Features";
+import Pricing from "@/Components/Home/Pricing/Pricing";
 import Testimonial from "@/Components/Home/Testimonial/Testimonial";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Features />
       <Advantages />
       <Testimonial />
+      <Pricing />
     </div>
   );
 };
