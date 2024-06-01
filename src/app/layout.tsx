@@ -1,13 +1,40 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+// import { Roboto } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./Shared/Navbar/NavBar";
 
-const roboto = Roboto({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
+const clash = localFont({
+  src: [
+    {
+      path: "../../public/fonts/ClashDisplay-Variable.ttf",
+      weight: "400",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Variable.ttf",
+      weight: "500",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Variable.ttf",
+      weight: "600",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Variable.ttf",
+      weight: "700",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Variable.ttf",
+      weight: "900",
+    },
+  ],
+  variable: "--font-clash",
 });
+
+// const roboto = Roboto({
+//   weight: "400",
+//   subsets: ["latin"],
+//   display: "swap",
+// });
 
 export const metadata: Metadata = {
   title: "Ui Fry",
@@ -21,8 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        <div className="px-10">
+      <body className={`${clash.variable}`}>
+        {/* <body className={roboto.className}> */}
+        <div className="px-10 font-clash">
           <NavBar />
           {children}
         </div>

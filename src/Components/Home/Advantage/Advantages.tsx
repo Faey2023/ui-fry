@@ -1,8 +1,8 @@
 import Image from "next/image";
-import phoneImg from "../../../app/assets/images/iPhone-13-Pro-Front.png";
+import phoneImg from "../../../app/assets/images/Group 35935.jpg";
+import phoneImg2 from "../../../app/assets/images/Group 35937.jpg";
 import star from "../../../app/assets/images/Star 3.png";
 import star2 from "../../../app/assets/images/star-05 (1).png";
-import card from "../../../app/assets/images/card.png";
 import { PiBellSimpleLight } from "react-icons/pi";
 const Advantages = () => {
   return (
@@ -10,7 +10,7 @@ const Advantages = () => {
       <section className="flex flex-col md:flex-row-reverse justify-center items-center gap-10">
         <div className="relative">
           <Image
-            className=" absolute right-0"
+            className="absolute right-0"
             src={star}
             alt=""
             width={0}
@@ -18,8 +18,8 @@ const Advantages = () => {
           />
           <Image src={phoneImg} alt="" width={0} height={0} />
         </div>
-        <div className=" w-1/2 space-y-5">
-          <p className=" uppercase text-lg text-[#FF5555] font-medium">
+        <div className="space-y-5 w-1/2">
+          <p className="uppercase text-lg text-[#FF5555] font-medium">
             advantages
           </p>
           <h1 className="capitalize text-5xl font-bold">Why choose uifry?</h1>
@@ -48,9 +48,11 @@ const Advantages = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col md:flex-row justify-center items-center gap-10">
-        <Image className="" src={star} alt="" width={0} height={0} />
-        <Image src={phoneImg} alt="" width={0} height={0} />
+      <section className="flex flex-col md:flex-row justify-around items-center">
+        <div>
+          <Image className="" src={star} alt="" width={0} height={0} />
+          <Image src={phoneImg2} alt="" width={0} height={0} />
+        </div>
         <div className=" w-1/2 space-y-5">
           <div className="flex gap-5 my-3 items-center">
             <div className="flex justify-center items-center rounded-full bg-[#FF5555] text-white w-12 h-12">
