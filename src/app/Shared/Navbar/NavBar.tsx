@@ -57,7 +57,7 @@ const NavBar = () => {
             {navLinks}
           </ul>
         </div>
-        <button className="text-white bg-[#333333] px-7 py-3 uppercase text-xs hover:bg-[#FF5555] transform ease-linear duration-300">
+        <button className="text-white bg-black px-7 py-3 capitalize text-xs hover:bg-[#FF5555] transform ease-linear duration-300">
           download
         </button>
       </div>
