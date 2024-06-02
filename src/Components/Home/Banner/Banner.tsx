@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <>
       {/* <Image className="ml-5" src={star} alt="Image 1" width={0} height={0} /> */}
-      <div className="flex flex-col md:flex-row justify-between max-w-6xl mx-auto gap-10 relative mt-24">
+      <div className="flex flex-col-reverse md:flex-row justify-between max-w-6xl mx-auto gap-10 relative mt-24">
         <div className="flex flex-col space-y-5 md:w-[700px]">
           <div className=" space-y-5">
             <div>

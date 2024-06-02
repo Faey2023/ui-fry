@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "../components/Shared/Navbar/NavBar";
-import Footer from "../components/Shared/Footer/Footer";
-import { Providers } from "../components/Shared/Theme Button/providers";
+import NavBar from "@/components/Shared/Navbar/NavBar";
+import Footer from "@/components/Shared/Footer/Footer";
+import { Providers } from "@/components/Shared/Theme Button/providers";
 
 const clash = localFont({
   src: [
