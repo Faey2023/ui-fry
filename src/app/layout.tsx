@@ -50,9 +50,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
+      {/* <html lang="en" suppressHydrationWarning> */}
       <body className={`${clash.variable}`}>
-        {/* <body className={roboto.className}> */}
         <div className="px-10 font-clash ">
           <Providers>
             <NavBar />

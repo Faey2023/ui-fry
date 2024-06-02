@@ -9,7 +9,7 @@ import star2 from "../../../app/assets/images/Star 3.png";
 const Features = () => {
   return (
     <>
-      <section className="flex justify-center items-center">
+      <section className="flex justify-center items-center" id="feature">
         <div>
           <Image src={star2} alt="" width={0} height={0} />
           <Image src={phoneImg} alt="" width={0} height={0} />
