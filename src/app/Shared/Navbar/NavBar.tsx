@@ -3,6 +3,7 @@ import Link from "next/link";
 
 //importing images
 import logo from "../../assets/images/logo.png";
+import ThemeButton from "../Theme Button/ThemeButton";
 
 const NavBar = () => {
   const navLinks = (
@@ -57,9 +58,12 @@ const NavBar = () => {
             {navLinks}
           </ul>
         </div>
-        <button className="text-white bg-black px-7 py-3 capitalize text-xs hover:bg-[#FF5555] transform ease-linear duration-300">
-          download
-        </button>
+        <div className="flex gap-2 justify-center items-center">
+          <button className="text-white bg-black px-7 py-3 capitalize text-xs hover:bg-[#FF5555] transform ease-linear duration-300">
+            download
+          </button>
+          <ThemeButton />
+        </div>
       </div>
     </nav>
   );

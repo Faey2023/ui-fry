@@ -4,6 +4,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./Shared/Navbar/NavBar";
 import Footer from "./Shared/Footer/Footer";
+import ThemeButton from "./Shared/Theme Button/ThemeButton";
+import { Providers } from "./providers";
 
 const clash = localFont({
   src: [
@@ -48,13 +50,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${clash.variable}`}>
         {/* <body className={roboto.className}> */}
-        <div className="px-10 font-clash">
-          <NavBar />
-          {children}
-          <Footer />
+        <div className="px-10 font-clash ">
+          <Providers>
+            <NavBar />
+            {children}
+            <Footer />
+          </Providers>
         </div>
       </body>
     </html>

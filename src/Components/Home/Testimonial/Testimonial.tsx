@@ -1,6 +1,6 @@
 import Image from "next/image";
 import testimonialImg from "../../../app/assets/images/testimonial.png";
-import star from "../../../app/assets/images/Star 3.png";
+import color from "../../../app/assets/images/color.png";
 import people1 from "../../../app/assets/images/people (1).png";
 import people2 from "../../../app/assets/images/people (2).png";
 import people3 from "../../../app/assets/images/people (3).png";
@@ -19,7 +19,23 @@ const Testimonial = () => {
         </h1>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10">
-        <Image src={testimonialImg} alt="" width={0} height={0} />
+        <div className="relative">
+          <Image
+            className="relative z-[99999]"
+            src={testimonialImg}
+            alt=""
+            width={0}
+            height={0}
+          />
+          <Image
+            className="absolute top-32 left-0"
+            src={color}
+            alt=""
+            width={0}
+            height={0}
+          />
+          {/* <Image className="absolute" src={color} alt="" width={0} height={0} /> */}
+        </div>
         <div className="space-y-5 w-1/2">
           <h1 className="capitalize text-3xl font-semibold">
             the best financial accounting app ever!

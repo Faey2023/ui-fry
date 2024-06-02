@@ -1,8 +1,9 @@
 import Image from "next/image";
-import phoneImg from "../../../app/assets/images/Group 35935.jpg";
-import phoneImg2 from "../../../app/assets/images/Group 35937.jpg";
+import phoneImg from "../../../app/assets/images/Group 35935.png";
+import phoneImg2 from "../../../app/assets/images/Group 35937.png";
 import star from "../../../app/assets/images/Star 3.png";
 import star2 from "../../../app/assets/images/star-05 (1).png";
+import color from "../../../app/assets/images/color.png";
 import { PiBellSimpleLight } from "react-icons/pi";
 const Advantages = () => {
   return (
@@ -49,10 +50,15 @@ const Advantages = () => {
         </div>
       </section>
       <section className="flex flex-col md:flex-row justify-around items-center">
-        <div>
+        <div className="">
+          {/* <Image className="" src={star} alt="" width={0} height={0} /> */}
+          <Image src={phoneImg2} alt="" width={0} height={0} />
+          {/* <Image src={color} alt="" width={0} height={0} /> */}
+        </div>
+        {/* <div className="relative">
           <Image className="" src={star} alt="" width={0} height={0} />
           <Image src={phoneImg2} alt="" width={0} height={0} />
-        </div>
+        </div> */}
         <div className=" w-1/2 space-y-5">
           <div className="flex gap-5 my-3 items-center">
             <div className="flex justify-center items-center rounded-full bg-[#FF5555] text-white w-12 h-12">

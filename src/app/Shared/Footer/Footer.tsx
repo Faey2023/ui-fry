@@ -4,8 +4,8 @@ import { IoCall, IoMail } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="max-w-7xl mx-auto text-[#000000]">
-      <footer className="bg-white">
+    <div className="max-w-7xl mx-auto text-[#000000] dark:text-white">
+      <footer className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
           <div className="mt-5 flex flex-col md:flex-row justify-between pt-16 md:grid-cols-4 lg:grid-cols-6">
             <div className="text-center sm:text-left space-y-6">

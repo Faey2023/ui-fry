@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 dark:text-white">
       <div className="max-w-md mx-auto text-center mb-5">
         <h6 className="uppercase text-lg font-medium tracking-[6px]">
           pricing
