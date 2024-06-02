@@ -1,9 +1,9 @@
 import Image from "next/image";
-import phoneImg from "../../../app/assets/images/Group 35935.png";
-import phoneImg2 from "../../../app/assets/images/Group 35937.png";
-import star from "../../../app/assets/images/Star 3.png";
-import star2 from "../../../app/assets/images/star-05 (1).png";
-import color from "../../../app/assets/images/color.png";
+import phoneImg from "@/app/assets/images/Group 35935.png";
+import phoneImg2 from "@/app/assets/images/Group 35937.png";
+import star from "@/app/assets/images/Star 3.png";
+import star2 from "@/app/assets/images/star-05 (1).png";
+import color from "@/app/assets/images/color.png";
 import { PiBellSimpleLight } from "react-icons/pi";
 const Advantages = () => {
   return (

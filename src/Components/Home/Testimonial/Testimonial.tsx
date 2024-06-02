@@ -1,11 +1,11 @@
 import Image from "next/image";
-import testimonialImg from "../../../app/assets/images/testimonial.png";
-import color from "../../../app/assets/images/color.png";
-import people1 from "../../../app/assets/images/people (1).png";
-import people2 from "../../../app/assets/images/people (2).png";
-import people3 from "../../../app/assets/images/people (3).png";
-import people4 from "../../../app/assets/images/people (4).png";
-import people5 from "../../../app/assets/images/people (5).png";
+import testimonialImg from "@/app/assets/images/testimonial.png";
+import color from "@/app/assets/images/color.png";
+import people1 from "@/app/assets/images/people (1).png";
+import people2 from "@/app/assets/images/people (2).png";
+import people3 from "@/app/assets/images/people (3).png";
+import people4 from "@/app/assets/images/people (4).png";
+import people5 from "@/app/assets/images/people (5).png";
 
 const Testimonial = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../assets/images/logo.png";
+import logo from "@/app/assets/images/logo.png";
 import { IoCall, IoMail } from "react-icons/io5";
 
 const Footer = () => {

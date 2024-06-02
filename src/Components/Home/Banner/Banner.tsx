@@ -1,8 +1,7 @@
 import Image from "next/image";
-import phone from "../../../app/assets/images/iPhone-13-Pro-Front (1).png";
-import phone2 from "../../../app/assets/images/iPhone-13-Pro-Front (2).png";
-import bannerImg from "../../../app/assets/images/Group 35924.png";
-import star from "../../../app/assets/images/Star 3.png";
+import phone2 from "@/app/assets/images/iPhone-13-Pro-Front (2).png";
+import bannerImg from "@/app/assets/images/Group 35924.png";
+import star from "@/app/assets/images/Star 3.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { AiTwotonePlayCircle } from "react-icons/ai";
 

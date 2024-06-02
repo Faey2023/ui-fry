@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 //importing images
-import logo from "../../assets/images/logo.png";
+import logo from "@/app/assets/images/logo.png";
 import ThemeButton from "../Theme Button/ThemeButton";
 
 const NavBar = () => {

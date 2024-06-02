@@ -1,10 +1,10 @@
 import Image from "next/image";
-import phoneImg from "../../../app/assets/images/iPhone-13-Pro-Front.png";
-import star from "../../../app/assets/images/star-05.png";
-import cube from "../../../app/assets/images/cube-02.png";
-import cube2 from "../../../app/assets/images/cube-04.png";
-import ellipse from "../../../app/assets/images/Ellipse 2157.png";
-import star2 from "../../../app/assets/images/Star 3.png";
+import phoneImg from "@/app/assets/images/iPhone-13-Pro-Front.png";
+import star from "@/app/assets/images/star-05.png";
+import cube from "@/app/assets/images/cube-02.png";
+import cube2 from "@/app/assets/images/cube-04.png";
+import ellipse from "@/app/assets/images/Ellipse 2157.png";
+import star2 from "@/app/assets/images/Star 3.png";
 
 const Features = () => {
   return (
