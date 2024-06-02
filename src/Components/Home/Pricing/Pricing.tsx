@@ -1,11 +1,11 @@
 const Pricing = () => {
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 dark:text-white">
-      <div className="max-w-md mx-auto text-center mb-5">
-        <h6 className="uppercase text-lg font-medium tracking-[6px]">
+      <div className="md:max-w-md mx-auto text-center mb-5">
+        <h6 className="uppercase md:text-lg font-medium tracking-[6px]">
           pricing
         </h6>
-        <h1 className="font-semibold text-3xl capitalize">
+        <h1 className="font-semibold text-lg md:text-3xl capitalize">
           Compare Our Plans and Choose What Works Best
         </h1>
       </div>
@@ -234,8 +234,7 @@ const Pricing = () => {
                   d="M4.5 12.75l6 6 9-13.5"
                 />
               </svg>
-
-              <span className="text-gray-700"> Help center access </span>
+              <span className="text-gray-700">Help center access</span>
             </li>
           </ul>
 

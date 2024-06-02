@@ -10,11 +10,11 @@ import people5 from "@/app/assets/images/people (5).png";
 const Testimonial = () => {
   return (
     <>
-      <div className="max-w-md mx-auto text-center">
-        <h6 className="uppercase text-lg font-medium tracking-[6px]">
+      <div className="md:max-w-md mx-auto text-center my-5">
+        <h6 className="uppercase md:text-lg font-medium tracking-[6px]">
           testimonial
         </h6>
-        <h1 className="font-bold text-5xl capitalize">
+        <h1 className="font-bold text-xl text-xl md:text-5xl capitalize">
           what our users say about us?
         </h1>
       </div>
@@ -28,7 +28,7 @@ const Testimonial = () => {
             height={0}
           />
           <Image
-            className="absolute top-32 left-0"
+            className="absolute md:top-32 md:left-0 bottom-0"
             src={color}
             alt=""
             width={0}
@@ -36,8 +36,8 @@ const Testimonial = () => {
           />
           {/* <Image className="absolute" src={color} alt="" width={0} height={0} /> */}
         </div>
-        <div className="space-y-5 w-1/2">
-          <h1 className="capitalize text-3xl font-semibold">
+        <div className="space-y-5 md:w-1/2">
+          <h1 className="capitalize text-lg md:text-3xl font-semibold">
             the best financial accounting app ever!
           </h1>
           <p className="text-lg font-medium text-[#808080]">
@@ -51,7 +51,7 @@ const Testimonial = () => {
             unlock a world of possibilities for smarter, more efficient
             accounting.&#34;
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-1 md:gap-5">
             <Image
               src={people1}
               alt="people-1"

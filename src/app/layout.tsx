@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "../Components/Shared/Navbar/NavBar";
-import Footer from "../Components/Shared/Footer/Footer";
-import { Providers } from "../Components/Shared/Theme Button/providers";
+import NavBar from "../components/Shared/Navbar/NavBar";
+import Footer from "../components/Shared/Footer/Footer";
+import { Providers } from "../components/Shared/Theme Button/providers";
 
 const clash = localFont({
   src: [
@@ -42,8 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      {/* <html lang="en" suppressHydrationWarning> */}
+    <html lang="en" className=" scroll-smooth">
       <body className={`${clash.variable}`}>
         <div className="px-10 font-clash">
           <Providers>

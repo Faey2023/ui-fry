@@ -9,16 +9,21 @@ import star2 from "@/app/assets/images/Star 3.png";
 const Features = () => {
   return (
     <>
-      <section className="flex justify-center items-center" id="feature">
+      <section
+        className="flex flex-col md:flex-row justify-center items-center"
+        // id="feature"
+      >
         <div>
           <Image src={star2} alt="" width={0} height={0} />
           <Image src={phoneImg} alt="" width={0} height={0} />
         </div>
-        <div className=" w-1/2 space-y-5">
+        <div className="md:w-1/2 space-y-5">
           <p className=" uppercase text-lg text-[#FF5555] font-medium">
             features
           </p>
-          <h1 className="capitalize text-5xl font-bold">uifry premium</h1>
+          <h1 className="capitalize text-xl md:text-5xl font-bold">
+            uifry premium
+          </h1>
           <div>
             <div className="flex gap-2 my-3">
               <Image

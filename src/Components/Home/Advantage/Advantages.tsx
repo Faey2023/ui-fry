@@ -19,17 +19,19 @@ const Advantages = () => {
           />
           <Image src={phoneImg} alt="" width={0} height={0} />
         </div>
-        <div className="space-y-5 w-1/2">
+        <div className="space-y-5 md:w-1/2">
           <p className="uppercase text-lg text-[#FF5555] font-medium">
             advantages
           </p>
-          <h1 className="capitalize text-5xl font-bold">Why choose uifry?</h1>
+          <h1 className="capitalize text-xl md:text-5xl font-bold">
+            Why choose uifry?
+          </h1>
           <div>
             <div className="flex gap-2 my-3">
-              <div className="flex justify-center items-center rounded-full bg-[#FF5555] text-white w-12 h-12">
-                <PiBellSimpleLight className="w-5 h-5" />
+              <div className="flex justify-center items-center text-center rounded-full bg-[#FF5555] text-white w-6 md:w-12 h-6 md:h-12">
+                <PiBellSimpleLight className="w-2.5 md:w-5 h-2.5 md:h-5" />
               </div>
-              <h4 className="text-3xl font-semibold text-center">
+              <h4 className="text-lg md:text-3xl font-semibold text-center">
                 Clever Notification
               </h4>
             </div>
@@ -59,12 +61,19 @@ const Advantages = () => {
           <Image className="" src={star} alt="" width={0} height={0} />
           <Image src={phoneImg2} alt="" width={0} height={0} />
         </div> */}
-        <div className=" w-1/2 space-y-5">
-          <div className="flex gap-5 my-3 items-center">
-            <div className="flex justify-center items-center rounded-full bg-[#FF5555] text-white w-12 h-12">
-              <Image className="" src={star2} alt="" width={0} height={0} />
+        <div className="md:w-1/2 space-y-5">
+          <div className="flex gap-2 md:gap-5 my-3 items-center">
+            <div className="flex justify-center items-center text-center rounded-full bg-[#FF5555] text-white w-6 md:w-12 h-6 md:h-12">
+              <Image
+                className="w-2.5 md:w-5 h-2.5 md:h-5"
+                src={star2}
+                alt=""
+                width={0}
+                height={0}
+              />
             </div>
-            <h4 className="text-3xl font-semibold text-center capitalize">
+
+            <h4 className="text-lg md:text-3xl font-semibold text-center capitalize">
               fully customizable
             </h4>
           </div>
